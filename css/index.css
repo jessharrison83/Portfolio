@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Dosis', sans-serif;
+  color: #393C42;
+}
+html a {
+  text-decoration: none;
+  color: #393C42;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 10%;
+  background-color: #2CA58D;
+  color: #FFFDF7;
+  font-size: 3rem;
+}
+.navbar .nav-selections {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .nav-selections a {
+  color: #FFFDF7;
+  font-size: 1.6rem;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.portfolio .portfolio-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 60px;
+}
+.portfolio .portfolio-row .portfolio-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.portfolio .portfolio-row .portfolio-option .portfolio-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.portfolio .portfolio-row .portfolio-option a {
+  font-size: 1.6rem;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0A2342;
+  color: #FFFDF7;
+  padding: 40px 10% 15px 10%;
+}
+footer .footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+footer .footer-content a {
+  color: #FFFDF7;
+}
+footer .footer-content i {
+  color: #F46197;
+}
+footer .top-nav a {
+  color: #FFFDF7;
+  font-size: 1.4rem;
+  padding-top: 30px;
+}
+.contact {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.4rem;
+}
+.contact .phone,
+.contact .email {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+}
+.contact .phone i,
+.contact .email i {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin-left: 20%;
+}
+.social i {
+  font-size: 5rem;
+  margin-bottom: 15px;
+  padding-right: 15px;
+}
+.about {
+  width: 30%;
+  margin-left: 20%;
+}
+.about p:first-child {
+  font-size: 2rem;
+}
+.about p:last-child {
+  font-size: 1.4rem;
+  margin-top: 15px;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.container .intro {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #F2F2F2;
+  width: 100%;
+  text-align: center;
+}
+.container .intro i {
+  font-size: 8rem;
+  padding-bottom: 80px;
+  color: #F46197;
+}
+.container .intro h1 {
+  font-size: 4rem;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+.container .intro p {
+  font-size: 2rem;
+  padding-bottom: 30px;
+  margin-right: 25%;
+  margin-left: 25%;
+}

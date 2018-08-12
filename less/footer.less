@@ -1,0 +1,59 @@
+footer {
+    .flex(column; center; center);
+    background-color: @main-color;
+    color: @nav-text-color;
+    padding: 40px 10% 15px 10%;
+    .footer-content {
+        .flex(row; space-between; center);
+        padding-bottom: 50px;
+        a {
+                color: @nav-text-color;
+        }
+            i {
+                color: @accent-color;
+        }
+        
+    }
+    .top-nav a{
+        color: @nav-text-color;
+        font-size: 1.4rem;
+        padding-top: 30px;
+    }
+}
+.contact  {
+    width: 30%;
+    .flex(column; center; flex-start);
+    font-size: 1.4rem;
+    .phone, .email {
+        .flex(row; flex-start; center);
+        margin-top: 15px;
+        i {
+            font-size: 2rem;
+            margin-right: 15px;
+        }
+    }
+ }
+
+ .social {
+     .flex(row; space-between; center);
+     width: 30%;
+     margin-left: 20%;
+     i {
+         font-size: 5rem;
+         margin-bottom: 15px;
+         padding-right: 15px;
+     }
+ }
+
+ .about {
+    width: 30%;
+    margin-left: 20%;
+    p:first-child {
+         font-size: 2rem;
+     }
+     p:last-child {
+         font-size: 1.4rem;
+         margin-top: 15px;
+     }
+ }
+ 
